@@ -6,3 +6,11 @@ spring:
   cloud:
     nacos:
       server-addr: 101.34.205.164:8848
+    gateway:
+      routes:
+        - id: product-router
+          uri: lb://gmall-product
+          predicates:
+          - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}

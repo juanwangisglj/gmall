@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 101.34.205.164:8848
+  application:
+    name: gmall-search
