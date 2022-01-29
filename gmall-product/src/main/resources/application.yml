@@ -9,3 +9,7 @@ spring:
   cloud:
     nacos:
       server-addr: 101.34.205.164:8848
+
+mybatis-plus:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mappers/*.xml

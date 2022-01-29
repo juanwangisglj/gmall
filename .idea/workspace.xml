@@ -5,46 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ec484c-600d-478b-aa45-fc4ecc511c52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/guazi/common/constant/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/guazi/common/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/guazi/common/utils/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/guazi/common/constant/ResultCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/guazi/common/utils/PageUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/guazi/common/utils/R.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/ProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/config/CustomerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/entity/CategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/src/test/java/com/guazi/gmall/CategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/ProductApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/config/CustomerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/controller/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/entity/CategoryEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/mapper/CategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-product/target/test-classes/com/guazi/gmall/CategoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/guazi/gmall/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/guazi/gmall/controller/GatewayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/test/java/com/guazi/gmall/GatewayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/target/classes/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/target/classes/com/guazi/gmall/GatewayApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/target/classes/com/guazi/gmall/controller/GatewayController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/target/test-classes/com/guazi/gmall/GatewayTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/guazi/common/utils/PageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-product/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,7 +36,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="24GLZAyZLWQbPFOvwwsXx1cLBBO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -106,6 +72,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gmall-product" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="CategoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -232,5 +205,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
