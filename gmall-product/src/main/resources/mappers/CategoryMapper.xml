@@ -3,4 +3,5 @@
 <mapper namespace="com.guazi.gmall.mapper.CategoriesMapper">
 
 
+
 </mapper>
