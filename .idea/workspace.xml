@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ec484c-600d-478b-aa45-fc4ecc511c52" name="Changes" comment="update" />
+    <list default="true" id="39ec484c-600d-478b-aa45-fc4ecc511c52" name="Changes" comment="mm">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-product/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/mapper/CategoriesMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/service/CategoriesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/target/classes/com/guazi/gmall/service/impl/CategoriesServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/target/classes/mappers/CategoriesMapper.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +76,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gmall-product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643451533193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mm">
+      <created>1643451951492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643451951492</updated>
+    </task>
+    <task id="LOCAL-00004" summary="mm">
+      <created>1643452071261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643452071261</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +246,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="mm" />
+    <option name="LAST_COMMIT_MESSAGE" value="mm" />
   </component>
 </project>
