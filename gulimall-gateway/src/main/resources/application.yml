@@ -1,0 +1,8 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: gmall-gateway
+  cloud:
+    nacos:
+      server-addr: 101.34.205.164:8848
