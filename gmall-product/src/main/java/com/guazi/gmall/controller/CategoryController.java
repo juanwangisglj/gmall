@@ -1,9 +1,7 @@
 package com.guazi.gmall.controller;
 
 import com.guazi.common.utils.R;
-import com.guazi.common.utils.ResultBean;
 import com.guazi.gmall.entity.CategoryEntity;
-import com.guazi.gmall.service.CategoriesService;
 import com.guazi.gmall.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -22,9 +20,6 @@ public class CategoryController {
     @Autowired
     private CategoryService categoryService;
 
-
-    @Autowired
-    CategoriesService categoriesService;
 
     /**
      * 三级分类查询接口（以树形结构返回）
@@ -55,11 +50,6 @@ public class CategoryController {
     public R update(@RequestBody CategoryEntity categoryEntity) {
         categoryService.updateById(categoryEntity);
         return R.ok();
-    }
-
-    @GetMapping("/test")
-    public int get(){
-        return categoriesService.get();
     }
 
 }

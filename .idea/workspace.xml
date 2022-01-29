@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ec484c-600d-478b-aa45-fc4ecc511c52" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/guazi/common/utils/PageUtils.class" beforeDir="false" />
+    <list default="true" id="39ec484c-600d-478b-aa45-fc4ecc511c52" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/mapper/CategoriesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/service/CategoriesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/src/main/java/com/guazi/gmall/service/impl/CategoriesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-product/src/main/resources/mappers/CategoriesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-product/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +191,14 @@
       <workItem from="1643353138377" duration="1734000" />
       <workItem from="1643355102451" duration="10855000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1643451430080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643451430080</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,5 +215,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
