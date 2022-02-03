@@ -1,20 +1,17 @@
-package com.guazi.gmall.entity;
+package com.guazi.gmall.model.vo;
 
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableLogic;
-import com.baomidou.mybatisplus.annotation.TableName;
-import com.fasterxml.jackson.annotation.JsonInclude;
+import com.guazi.gmall.model.entity.CategoryDO;
 import lombok.Data;
 
 import java.util.List;
 
 /**
- * @author glj
- * @date 2022/1/27 1:27 下午
- */
+ * @Author xf
+ * @Date 2022/2/1 11:58 上午
+ **/
 @Data
-@TableName("pms_category")
-public class CategoryEntity {
+public class CategoryVO {
+
     /**
      * 分类id
      */
@@ -34,7 +31,6 @@ public class CategoryEntity {
     /**
      * 是否显示[0-不显示，1显示]
      */
-    @TableLogic(value = "1",delval = "0")
     private Integer showStatus;
     /**
      * 排序
@@ -56,7 +52,5 @@ public class CategoryEntity {
     /**
      * 所有子分类
      */
-    @JsonInclude(JsonInclude.Include.NON_EMPTY)
-    @TableField(exist = false)
-    private List<CategoryEntity> children;
+    private List<CategoryVO> children;
 }

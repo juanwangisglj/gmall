@@ -9,7 +9,11 @@ spring:
   cloud:
     nacos:
       server-addr: 101.34.205.164:8848
-
 mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: showStatus
+      logic-delete-value: 1
+      logic-not-delete-value: 0
   config-location: classpath:/mybatis/mybatis-config.xml
   mapper-locations: classpath:/mappers/*.xml
